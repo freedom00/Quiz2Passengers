@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Quiz2Passengers"
         mc:Ignorable="d"
-        Title="SortByDialog" Height="254.847" Width="502.679" ResizeMode="NoResize">
+        Title="SortByDialog" Height="254.847" Width="502.679" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Sort By:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,30,0,0" />
         <RadioButton Name="rbName" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,87,0,0" IsChecked="True" />

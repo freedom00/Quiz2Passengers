@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Quiz2Passengers"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" Closing="Window_Closing">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Search" HorizontalAlignment="Left" Margin="53,40,0,0" VerticalAlignment="Top" />
         <TextBox Name="tbSearch" TextChanged="tbSearch_TextChanged" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" Margin="112,37,0,0" />
