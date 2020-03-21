@@ -1,0 +1,30 @@
+﻿<Window x:Class="Quiz2Passengers.AddEditDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz2Passengers"
+        mc:Ignorable="d"
+        Title="AddEditDialog" Height="450" Width="518.75" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="495*" />
+            <ColumnDefinition Width="16*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Id:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,33,0,0" />
+        <Label Name="lblId" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,33,0,0" RenderTransformOrigin="4.113,0.827" />
+        <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,87,0,0" />
+        <Label Content="Passport No.:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,146,0,0" />
+        <Label Content="Destination:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,199,0,0" />
+        <Label Content="Dep Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,254,0,0" />
+        <Label Content="Dep Time:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,310,0,0" />
+        <TextBox Name="tbName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="298" Margin="161,99,0,0" />
+        <TextBox Name="tbPassportNo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Margin="161,150,0,0" />
+        <TextBox Name="tbDestination" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Margin="161,211,0,0" />
+        <ComboBox Name="comboDepTime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="298" Margin="161,314,0,0" />
+        <Button Content="Cancel" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="42,365,0,0" RenderTransformOrigin="1.139,0.661" />
+        <Button Name="btDelete" Click="btDelete_Click" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="217,365,0,0" />
+        <Button Name="btAdd" Click="btAdd_Click" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="384,365,0,0" />
+        <DatePicker Name="dpDepDate" HorizontalAlignment="Left" Margin="161,263,0,0" VerticalAlignment="Top" Width="298" Text="1111" DisplayDate="2020-03-20" SelectedDateFormat="Short" />
+    </Grid>
+</Window>
