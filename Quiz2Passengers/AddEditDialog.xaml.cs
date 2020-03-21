@@ -48,6 +48,7 @@ namespace Quiz2Passengers
             else
             {
                 btAdd.Content = "Save";
+                btDelete.IsEnabled = true;
                 lblId.Content = passenger.Id;
                 tbName.Text = passenger.Name;
                 tbPassportNo.Text = passenger.PassportNo;
